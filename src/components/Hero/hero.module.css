@@ -1,0 +1,48 @@
+.hero {
+  width: 100vw;
+  height: 550px;
+  margin-bottom: 5%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.p {
+  font-size: 1.2rem;
+  margin: 8px 0 16px 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 350px;
+    background-size: cover;
+  }
+}
+@media (max-width: 480px) {
+  .hero {
+    height: 280px;
+    background-size: cover;
+  }
+}

@@ -89,7 +89,7 @@ export default function Carrossel() {
             <img src={pessoa.imagem} alt={pessoa.nome} />
 
             <div className={styles.info}>
-              <h2>{pessoa.nome}</h2>
+              <h3 className={styles.title}>{pessoa.nome}</h3>
               <p>
                 <strong>Data de nascimento:</strong> {pessoa.nascimento}
               </p>

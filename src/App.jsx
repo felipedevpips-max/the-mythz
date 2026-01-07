@@ -3,6 +3,8 @@ import { About } from "./components/About";
 import { Hero } from "./components/Hero";
 import { Container } from "./components/Container";
 import { Header } from "./components/Header";
+import Carrossel from "./components/Carrossel";
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Carrossel/>
     </Container>
   );
 }

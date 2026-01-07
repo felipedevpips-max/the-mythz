@@ -1,5 +1,5 @@
 import styles from "./about.module.css";
-import sobre from "../../assets/sobre.jpeg";
+import sobre from "../../assets/sobre.jpg";
 
 export const About = () => {
   return (

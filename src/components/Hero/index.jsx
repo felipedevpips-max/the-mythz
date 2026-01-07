@@ -1,5 +1,5 @@
 import styles from "./hero.module.css";
-import banda from "../../assets/banda.png";
+import banda from "../../assets/banda.jpg";
 import { Button } from "../Buttons";
 
 export const Hero = () => {

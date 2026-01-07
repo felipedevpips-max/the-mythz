@@ -17,6 +17,9 @@ export const Header = () => {
               <a href="#">Sobre</a>
             </li>
             <li>
+              <a href="#">Integrantes</a>
+            </li>
+            <li>
               <a href="#">Contato</a>
             </li>
             <li>
@@ -34,6 +37,9 @@ export const Header = () => {
             </li>
             <li>
               <a href="#">Sobre</a>
+            </li>
+            <li>
+              <a href="#">Integrantes</a>
             </li>
             <li>
               <a href="#">Contato</a>

@@ -7,48 +7,60 @@ import jonathan from "../../assets/jonathan.jpg";
 import luiz from "../../assets/luiz.jpg";
 import instagram from "../../assets/instagram.svg";
 
-
-
-
 const pessoas = [
   {
     id: 1,
     nome: "David Luiz 'Sagaz'",
     nascimento: "11/02/1998",
-    contato: instagram,
-    posicao: "Vocalista/Violão",
+    contato: {
+      icon: instagram,
+      link: "https://www.instagram.com/sagaz_zz?igsh=MW9ieWRjbm8zMG8zaA==",
+    },
+    posicao: "Vocal/Violão",
     imagem: sagaz,
   },
   {
     id: 2,
     nome: "Maicon Vinicius 'Faráo'",
     nascimento: "07/10/1998",
-    contato: instagram,
-    posicao: "Vocalista/Tecladista",
+    contato: {
+      icon: instagram,
+      link: "https://www.instagram.com/mvxni.01?igsh=cXJnMTB5NWtvemxp",
+    },
+    posicao: "Vocal/Teclado",
     imagem: maicon,
   },
   {
     id: 3,
     nome: "Luiz Junior",
     nascimento: "12/09/2000",
-    contato: instagram,
-    posicao: "",
+    contato: {
+      icon: instagram,
+      link: "https://www.instagram.com/",
+    },
+    posicao: "Baixo",
     imagem: luiz,
   },
   {
     id: 3,
     nome: "Jonathan Luiz",
     nascimento: "02/07/1994",
-    contato: instagram,
-    posicao: "",
+    contato: {
+      icon: instagram,
+      link: "https://www.instagram.com/jonatthan35?igsh=MWpxNmI4bmM5cjdp",
+    },
+    posicao: "Bateria,Cajon",
     imagem: jonathan,
   },
   {
     id: 3,
     nome: "Felipe Costa",
     nascimento: "30/12/2000",
-    contato: instagram,
-    posicao: "Desenvolvedor Web/ Guitarrista",
+    contato: {
+      icon: instagram,
+      link: "https://www.instagram.com/felipe.costa_216?utm_source=qr&igsh=MWl2Z29xM3pjajdneA==",
+    },
+    posicao: "Desenvolvedor Web/ Guitarra",
     imagem: felipe,
   },
 ];
@@ -85,10 +97,16 @@ export default function Carrossel() {
                 <strong>Posição:</strong> {pessoa.posicao}
               </p>
               <p>
-                <strong>Contato:</strong> 
-                <img src={pessoa.contato}
-                alt="Contato"
-                className={styles.icon}/>
+                <strong>Contato:</strong>
+                <a
+                  href={pessoa.contato.link}
+                  target="_blank"
+                  rel="noreferrer"
+                ><img
+                  src={pessoa.contato.icon}
+                  alt="Contato"
+                  className={styles.icon}
+                /></a>
                 
               </p>
             </div>

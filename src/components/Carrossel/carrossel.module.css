@@ -68,7 +68,6 @@ button {
   margin-left: 6px;
   vertical-align: middle;
   display: flex;
-  justify-content: space-between;
   cursor: pointer;
 }
 
@@ -100,6 +99,7 @@ button {
   .icon {
     width: 24px;
     height: 24px;
+    margin: 0 auto;
   }
 
   button {

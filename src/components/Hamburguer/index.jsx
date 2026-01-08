@@ -12,7 +12,12 @@ export const Hamburguer = () => {
       </div>
       <ul className={`${styles.mobileMenu} ${open ? styles.open : ""}`}>
         <li>
-          <a href="#home">Home</a>
+          <a
+            href="#home"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
+            Home
+          </a>
         </li>
         <li>
           <a href="#sobre">Sobre</a>

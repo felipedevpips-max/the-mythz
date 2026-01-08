@@ -9,10 +9,13 @@ export const Header = () => {
     <>
       <header className={styles.header}>
         <div className={styles.div}>
-          <img className={styles.img} src={logo} alt="" />
+          <a href="#home" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            <img className={styles.img} src={logo} alt="" />
+          </a>
+          
           <ul className={styles.ul}>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home"onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</a>
             </li>
             <li>
               <a href="#sobre">Sobre</a>

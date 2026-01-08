@@ -26,9 +26,7 @@ export const Header = () => {
             <li>
               <a href="#contato">Contato</a>
             </li>
-            <li>
-              <a href="#shows">Shows</a>
-            </li>
+            
           </ul>
           <Hamburguer/>
           

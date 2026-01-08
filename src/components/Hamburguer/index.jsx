@@ -28,9 +28,7 @@ export const Hamburguer = () => {
         <li>
           <a href="#contato">Contato</a>
         </li>
-        <li>
-          <a href="#shows">Shows</a>
-        </li>
+        
       </ul>
     </>
   );

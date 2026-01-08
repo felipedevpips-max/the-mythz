@@ -1,0 +1,37 @@
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 32px 0;
+}
+.videos {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.videowrap {
+  flex: 1;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.videowrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .videos {
+    flex-direction: column;
+  }
+}

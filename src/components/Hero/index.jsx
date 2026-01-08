@@ -14,7 +14,7 @@ export const Hero = () => {
 
           <div className={styles.buttons}>
             <Button as="a" href="#ouviragora">Ouvir agora</Button>
-            <Button as="a" href="#shows">Shows</Button>
+            <Button as="a" href="#videos">Videos</Button>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import styles from "./player.module.css";
 export function SpotifyPlayer() {
   return (
     <>
+    <div className={styles.container}>
     <div>
         <h2 className={styles.title}>Ouça Agora</h2>
     </div>
@@ -19,6 +20,7 @@ export function SpotifyPlayer() {
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
     ></iframe>
+    </div>
     
     </>
   );

@@ -9,7 +9,7 @@ export const Header = () => {
     <>
       <header className={styles.header}>
         <div className={styles.div}>
-          <a href="#home" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          <a href="/" onClick={() => window.location.reload()}>
             <img className={styles.img} src={logo} alt="" />
           </a>
           

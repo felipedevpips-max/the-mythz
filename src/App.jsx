@@ -10,12 +10,24 @@ function App() {
   return (
     <>
       <Container>
+        <section id="home">
         <Header />
+        </section>
+
         <Hero />
+
+        <section id="sobre">
         <About />
+        </section>
+
+        <section id="integrantes">
         <Carrossel />
+        </section>
+
+        <SpotifyPlayer/>
+
       </Container>
-      <SpotifyPlayer/>
+      
     </>
   );
 }

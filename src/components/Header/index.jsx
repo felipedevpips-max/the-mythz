@@ -12,19 +12,19 @@ export const Header = () => {
           <img className={styles.img} src={logo} alt="" />
           <ul className={styles.ul}>
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">Sobre</a>
+              <a href="#sobre">Sobre</a>
             </li>
             <li>
-              <a href="#">Integrantes</a>
+              <a href="#integrantes">Integrantes</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
             <li>
-              <a href="#">Shows</a>
+              <a href="#shows">Shows</a>
             </li>
           </ul>
           <Hamburguer/>

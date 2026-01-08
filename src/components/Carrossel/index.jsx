@@ -22,7 +22,7 @@ const pessoas = [
   },
   {
     id: 2,
-    nome: "Maicon Vinicius 'Faráo'",
+    nome: "Maicon Vinicius 'Faraó'",
     nascimento: "07/10/1998",
     contato: {
       icon: instagram,

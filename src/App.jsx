@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import Carrossel from "./components/Carrossel";
 import SpotifyPlayer from "./components/Player";
 import { Videos } from "./components/Videos";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
         </section>
 
       </Container>
+      <section id="contato">
+      <Footer/>
+      </section>
       
     </>
   );

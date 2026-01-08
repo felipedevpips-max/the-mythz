@@ -12,10 +12,7 @@ export const Hamburguer = () => {
       </div>
       <ul className={`${styles.mobileMenu} ${open ? styles.open : ""}`}>
         <li>
-          <a
-            href="#home"
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          >
+          <a href="/" onClick={() => window.location.reload()}>
             Home
           </a>
         </li>
@@ -28,7 +25,6 @@ export const Hamburguer = () => {
         <li>
           <a href="#contato">Contato</a>
         </li>
-        
       </ul>
     </>
   );

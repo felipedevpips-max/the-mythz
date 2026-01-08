@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  background: #0f0f0f;
+  color: #fff;
+  padding: 32px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container a {
+  color: #aaa;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

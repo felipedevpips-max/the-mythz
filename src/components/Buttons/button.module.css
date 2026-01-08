@@ -6,6 +6,8 @@
   cursor: pointer;
   background: rgba(255, 255, 255, 0.8);
   transition: 0.3s;
+  text-decoration: none;
+  color:var(--header)
 }
 
 .button:hover {

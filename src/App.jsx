@@ -24,7 +24,9 @@ function App() {
         <Carrossel />
         </section>
 
+        <section id="ouviragora">
         <SpotifyPlayer/>
+        </section>
 
       </Container>
       

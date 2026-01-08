@@ -4,7 +4,7 @@ import { Button } from "../Buttons";
 
 
 
-export const Hero = ({onListenClick}) => {
+export const Hero = () => {
   return (
     <>
       <div className={styles.hero} style={{ backgroundImage: `url(${banda})` }}>
@@ -13,8 +13,8 @@ export const Hero = ({onListenClick}) => {
           <p className={styles.p}>Single ELA</p>
 
           <div className={styles.buttons}>
-            <Button onClick={onListenClick}>Ouvir agora</Button>
-            <Button>Shows</Button>
+            <Button as="a" href="#ouviragora">Ouvir agora</Button>
+            <Button as="a" href="#shows">Shows</Button>
           </div>
         </div>
       </div>

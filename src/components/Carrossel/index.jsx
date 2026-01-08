@@ -5,7 +5,7 @@ import maicon from "../../assets/maicon.jpg";
 import felipe from "../../assets/felipe.jpg";
 import jonathan from "../../assets/jonathan.jpg";
 import luiz from "../../assets/luiz.jpg";
-import instagram from "../../assets/instagram.svg";
+import instagram from "../../assets/instagram.png";
 
 
 const pessoas = [

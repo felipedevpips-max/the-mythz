@@ -18,6 +18,21 @@
 .contain {
     padding: 0 16px;
 }
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.ul li{
+    cursor: pointer;
+}
+
+
 .img {
   max-width: 150px;
   max-height: 150px;
@@ -28,8 +43,20 @@
 
 }
 .contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.logos {
+    width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-right: 16px;
 
 }
+
+
 
 .container {
   margin: 0 auto;
@@ -47,6 +74,10 @@
 
 .container a:hover {
   color: var(--logo);
+}
+
+.color {
+    color: var(--logo);
 }
 
 @media (max-width: 768px) {

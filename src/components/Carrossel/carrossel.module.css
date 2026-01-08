@@ -37,7 +37,7 @@ display: flex;
 .card {
   display: flex;
   align-items: center;
-  background:linear-gradient(to right, #000000, #000000, #161616);;
+  background:linear-gradient(to right, #000000, #1b4b72, #194d77);;
   padding: 0 10px 0 0;
   border-radius: 8px;
   

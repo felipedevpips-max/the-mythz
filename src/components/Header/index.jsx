@@ -15,7 +15,7 @@ export const Header = () => {
           
           <ul className={styles.ul}>
             <li>
-              <a href="#home"onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</a>
+              <a href="/" onClick={() => window.location.reload()}>Home</a>
             </li>
             <li>
               <a href="#sobre">Sobre</a>

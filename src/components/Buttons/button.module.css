@@ -12,5 +12,5 @@
 
 .button:hover {
   background: linear-gradient(to bottom, #000, #1b4b72);
-  color: var(--text);
+  color: var(--logo);
 }

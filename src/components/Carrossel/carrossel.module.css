@@ -52,7 +52,9 @@ display: flex;
   margin-right: 16px;
 }
 
-
+.title {
+  color:var(--logo) ;
+}
 .info h2 {
   margin: 0 0 8px;
   width: 100%;

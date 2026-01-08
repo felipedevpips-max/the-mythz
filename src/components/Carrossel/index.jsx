@@ -7,6 +7,7 @@ import jonathan from "../../assets/jonathan.jpg";
 import luiz from "../../assets/luiz.jpg";
 import instagram from "../../assets/instagram.svg";
 
+
 const pessoas = [
   {
     id: 1,
@@ -91,7 +92,7 @@ export default function Carrossel() {
             <div className={styles.info}>
               <h3 className={styles.title}>{pessoa.nome}</h3>
               <p>
-                <strong>Data de nascimento:</strong> {pessoa.nascimento}
+                <strong>Data de nascimento :</strong> {pessoa.nascimento}
               </p>
               <p>
                 <strong>Posição:</strong> {pessoa.posicao}

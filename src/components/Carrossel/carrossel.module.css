@@ -15,7 +15,7 @@ display: flex;
   font-weight: bold;
 }
 .integrants h3 {
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -32,12 +32,13 @@ display: flex;
 .carrossel p {
   font-size: 1.2rem;
   max-width: 600px;
+  
 }
 
 .card {
   display: flex;
   align-items: center;
-  background:linear-gradient(to right, #000000, #1b4b72, #194d77);;
+  background: linear-gradient(to bottom, #000, #1b4b72);
   padding: 0 10px 0 0;
   border-radius: 8px;
   
@@ -81,7 +82,7 @@ button {
 
   .card {
     flex-direction: column;
-    padding: 10px;
+    padding: 4px 4px 8px 4px;
   }
 
   .card > img {
@@ -92,8 +93,14 @@ button {
   }
 
   .info {
+    
     width: 100%;
     text-align: center;
+  }
+
+  .info p {
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .icon {

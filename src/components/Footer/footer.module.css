@@ -15,10 +15,25 @@
   opacity: 0.4;
   margin: 0 0 24px 0;
 }
+.contain {
+    padding: 0 16px;
+}
+.img {
+  max-width: 150px;
+  max-height: 150px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+
+}
+.contato {
+
+}
 
 .container {
   margin: 0 auto;
-  padding: 0 16px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;

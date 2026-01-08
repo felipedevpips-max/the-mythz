@@ -48,9 +48,6 @@
 }
 
 @media (max-width: 768px) {
-  .ul {
-    display: none; /* esconde menu desktop */
-  }
 
   .hamburguer {
     display: flex; /* mostra hamburguer */

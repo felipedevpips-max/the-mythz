@@ -49,3 +49,8 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .ul {
+    display: none; /* esconde menu desktop */
+  }
+}

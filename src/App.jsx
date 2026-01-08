@@ -4,16 +4,33 @@ import { Hero } from "./components/Hero";
 import { Container } from "./components/Container";
 import { Header } from "./components/Header";
 import Carrossel from "./components/Carrossel";
-
+import SpotifyPlayer from "./components/Player";
 
 function App() {
   return (
-    <Container>
-      <Header />
-      <Hero />
-      <About />
-      <Carrossel/>
-    </Container>
+    <>
+      <Container>
+        <section id="home">
+        <Header />
+        </section>
+
+        <Hero />
+
+        <section id="sobre">
+        <About />
+        </section>
+
+        <section id="integrantes">
+        <Carrossel />
+        </section>
+
+        <section id="ouviragora">
+        <SpotifyPlayer/>
+        </section>
+
+      </Container>
+      
+    </>
   );
 }
 

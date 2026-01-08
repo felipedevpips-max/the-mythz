@@ -2,6 +2,8 @@ import styles from "./hero.module.css";
 import banda from "../../assets/banda.jpg";
 import { Button } from "../Buttons";
 
+
+
 export const Hero = () => {
   return (
     <>
@@ -11,8 +13,8 @@ export const Hero = () => {
           <p className={styles.p}>Single ELA</p>
 
           <div className={styles.buttons}>
-            <Button>Ouvir agora</Button>
-            <Button>Shows</Button>
+            <Button as="a" href="#ouviragora">Ouvir agora</Button>
+            <Button as="a" href="#shows">Shows</Button>
           </div>
         </div>
       </div>

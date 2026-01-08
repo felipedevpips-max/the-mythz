@@ -5,10 +5,8 @@
   --neutral-surface: #2a2c34;
   --neutral-header: #33353f;
   --text: #f5f5f5;
-  --hover: red;
-
-  /* Primary colors */
-  --primary-highlight: #7693ff;
+  --hover:#194d77;
+  --logo: #f19e04;
 }
 
 * {
@@ -23,4 +21,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background);
+}
+
+html {
+  scroll-behavior: smooth;
 }

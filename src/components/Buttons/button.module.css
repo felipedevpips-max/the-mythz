@@ -6,9 +6,11 @@
   cursor: pointer;
   background: rgba(255, 255, 255, 0.8);
   transition: 0.3s;
+  text-decoration: none;
+  color:var(--header)
 }
 
 .button:hover {
-  background: var(--background);
-  color: var(--text);
+  background: var(--hover);
+  color: var(--logo);
 }

@@ -3,12 +3,18 @@ import styles from "./footer.module.css";
 export const Footer = () => {
   return (
     <>
-      <footer className={styles.footer}>
-
-
-
-
+    
+    <footer className={styles.footer}>
+    <hr className={styles.hr}/>
         
+        <div className={styles.contato}>
+            
+        </div>
+
+
+
+
+
         <div className={styles.container}>
           <p>© 2026 • The MYTHZ</p>
 

@@ -1,53 +1,29 @@
-# 🎸 The Mythz — Site Oficial da Banda
+# 🎸 The Mythz — Website Oficial da Banda
 
-Site oficial da banda **The Mythz**, banda brasileira de **rock alternativo de Minas Gerais**.  
-O projeto foi desenvolvido com foco em **performance, SEO, boas práticas de front-end e experiência do usuário**.
+Este projeto é um **site institucional desenvolvido para a banda The Mythz**, criado com o objetivo de **evoluir minhas habilidades como desenvolvedor front-end** e, ao mesmo tempo, **fortalecer a presença digital e o marketing da banda**.
 
-🔗 **Site online:** https://the-mythz.vercel.app  
+O site apresenta informações sobre a banda, músicas, identidade visual e canais de contato, servindo como uma vitrine profissional e moderna.
 
----
+## 🚀 Deploy
+🔗 Acesse o site em produção:  
+[https://the-mythz.vercel.app/]
 
-## 🚀 Tecnologias Utilizadas
+## 🧩 Funcionalidades
+- Apresentação institucional da banda
+- Layout moderno e responsivo
+- Organização de conteúdo focada em marketing digital
+- Estrutura escalável para futuras funcionalidades (agenda de shows, mídia, etc.)
 
-- **React.js**
+## 🛠️ Tecnologias Utilizadas
+- **React**
 - **Vite**
-- **CSS Modules**
-- **JavaScript (ES6+)**
-- **HTML5 Semântico**
-- **Vercel (Deploy)**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
 
----
-
-## 🎯 Objetivos do Projeto
-
-- Criar um site institucional moderno para uma banda independente
-- Garantir **boa indexação no Google (SEO)**
-- Alcançar **alta performance no Lighthouse**
-- Aplicar **boas práticas de acessibilidade e front-end**
-- Servir como **projeto de portfólio profissional**
-
----
-
-## ⚡ Performance & SEO
-
-Este projeto foi otimizado com foco em métricas reais de performance:
-
-- ✅ Lazy loading para componentes fora da tela
-- ✅ Fonte com `font-display: swap`
-- ✅ Meta tags otimizadas para SEO
-- ✅ Open Graph para compartilhamento em redes sociais
-- ✅ Estrutura semântica HTML5
-
-
-## 🧠 Boas Práticas Aplicadas
-
-- Componentização clara e reutilizável
-- Separação de responsabilidades
-- CSS Modules para evitar conflitos de estilo
-- Code splitting e lazy loading
-- Evita bloqueios de renderização no carregamento inicial
-
----
-
-## 📁 Estrutura do Projeto
-
+## 🎯 Objetivo do Projeto
+Este projeto foi desenvolvido com os seguintes objetivos:
+- Praticar e consolidar conhecimentos em **React**
+- Trabalhar conceitos de **componentização** e **organização de código**
+- Criar um produto real com foco em **experiência do usuário**
+- Aplicar tecnologia como ferramenta de **marketing digital**

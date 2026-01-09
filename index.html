@@ -38,11 +38,18 @@
     <meta name="robots" content="index, follow" />
 
     <title>TheMythz – Banda de Rock Alternativo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="image"
+      href="/assets/banda-1920.webp"
+      imagesrcset="
+    /assets/banda-480.webp 480w,
+    /assets/banda-768.webp 768w,
+    /assets/banda-1280.webp 1280w,
+    /assets/banda-1920.webp 1920w
+  "
+      imagesizes="100vw"
     />
 
     <script type="application/ld+json">
@@ -63,7 +70,6 @@
         "image": "https://the-mythz.vercel.app/assets/logo-C0XTxsKn.png"
       }
     </script>
-    
   </head>
   <body>
     <div id="root"></div>

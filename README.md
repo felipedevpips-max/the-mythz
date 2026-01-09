@@ -1,16 +1,58 @@
-# React + Vite
+# 🎸 The Mythz — Site Oficial da Banda
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site oficial da banda **The Mythz**, banda brasileira de **rock alternativo de Minas Gerais**.  
+O projeto foi desenvolvido com foco em **performance, SEO, boas práticas de front-end e experiência do usuário**.
 
-Currently, two official plugins are available:
+🔗 **Site online:** https://the-mythz.vercel.app  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Preview
+> (adicione aqui um print do site depois, fica muito profissional)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **Vite**
+- **CSS Modules**
+- **JavaScript (ES6+)**
+- **HTML5 Semântico**
+- **Vercel (Deploy)**
+
+---
+
+## 🎯 Objetivos do Projeto
+
+- Criar um site institucional moderno para uma banda independente
+- Garantir **boa indexação no Google (SEO)**
+- Alcançar **alta performance no Lighthouse**
+- Aplicar **boas práticas de acessibilidade e front-end**
+- Servir como **projeto de portfólio profissional**
+
+---
+
+## ⚡ Performance & SEO
+
+Este projeto foi otimizado com foco em métricas reais de performance:
+
+- ✅ Lazy loading para componentes fora da tela
+- ✅ Fonte com `font-display: swap`
+- ✅ Meta tags otimizadas para SEO
+- ✅ Open Graph para compartilhamento em redes sociais
+- ✅ Estrutura semântica HTML5
+
+
+## 🧠 Boas Práticas Aplicadas
+
+- Componentização clara e reutilizável
+- Separação de responsabilidades
+- CSS Modules para evitar conflitos de estilo
+- Code splitting e lazy loading
+- Evita bloqueios de renderização no carregamento inicial
+
+---
+
+## 📁 Estrutura do Projeto
+

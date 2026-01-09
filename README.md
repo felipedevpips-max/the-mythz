@@ -1,9 +1,5 @@
 # 🎸 The Mythz — Website Oficial da Banda
 
-Este projeto é um **site institucional desenvolvido para a banda The Mythz**, criado com o objetivo de **evoluir minhas habilidades como desenvolvedor front-end** e, ao mesmo tempo, **fortalecer a presença digital e o marketing da banda**.
-
-O site apresenta informações sobre a banda, músicas, identidade visual e canais de contato, servindo como uma vitrine profissional e moderna.
-
 ## 🚀 Deploy
 🔗 Acesse o site em produção:  
 [https://the-mythz.vercel.app/]
@@ -11,22 +7,30 @@ O site apresenta informações sobre a banda, músicas, identidade visual e cana
 <img width="2272" height="1226" alt="Captura de tela 2026-01-09 153951" src="https://github.com/user-attachments/assets/f4e8bbaf-d7bc-4bdb-9c7b-1915e7419cb9" />
 
 
-## 🧩 Funcionalidades
-- Apresentação institucional da banda
-- Layout moderno e responsivo
-- Organização de conteúdo focada em marketing digital
-- Estrutura escalável para futuras funcionalidades (agenda de shows, mídia, etc.)
+Este projeto foi criado com dois focos principais:
+
+- 📈 **Aprimorar meus conhecimentos em desenvolvimento web**, especialmente com React
+- 🎶 **Ajudar a banda The Mythz a melhorar sua presença digital**, facilitando a divulgação do trabalho, identidade visual e engajamento com o público
+
+A ideia foi unir prática técnica com um **projeto real**, simulando uma entrega profissional.
+
+---
+
+## 🚀 Funcionalidades
+
+- Página institucional da banda
+- Apresentação visual moderna e responsiva
+- Estrutura preparada para divulgação de conteúdo, identidade e marketing digital
+- Layout focado em experiência do usuário (UX)
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
+
 - **React**
 - **Vite**
-- **JavaScript**
+- **JavaScript (ES6+)**
 - **HTML5**
 - **CSS3**
-
-## 🎯 Objetivo do Projeto
-Este projeto foi desenvolvido com os seguintes objetivos:
-- Praticar e consolidar conhecimentos em **React**
-- Trabalhar conceitos de **componentização** e **organização de código**
-- Criar um produto real com foco em **experiência do usuário**
-- Aplicar tecnologia como ferramenta de **marketing digital**
+- **ESLint**
+- Deploy com **Vercel**

@@ -7,7 +7,7 @@ export const About = () => {
       <section className={styles.about}>
         <h2>Sobre</h2>
         <div className={styles.div}>
-          <img className={styles.img} src={sobre} alt="" />
+          <img className={styles.img} src={sobre} alt="Foto de Faraó e Sagaz" loading="lazy" />
           <p>
             A The Mythz é uma banda de rock alternativo formada em 2014,
             trazendo músicas autorais intensas e versões únicas de clássicos que

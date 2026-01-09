@@ -7,11 +7,6 @@ O projeto foi desenvolvido com foco em **performance, SEO, boas práticas de fro
 
 ---
 
-## 📸 Preview
-> (adicione aqui um print do site depois, fica muito profissional)
-
----
-
 ## 🚀 Tecnologias Utilizadas
 
 - **React.js**

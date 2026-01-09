@@ -9,7 +9,7 @@ export const Hero = () => {
     <>
       <div className={styles.hero} style={{ backgroundImage: `url(${banda})` }}>
         <div className={styles.content}>
-          <h2 className={styles.h2}>THE MYTHZ</h2>
+          <h1 className={styles.h2}>THE MYTHZ</h1>
           <p className={styles.p}>Single ELA</p>
 
           <div className={styles.buttons}>

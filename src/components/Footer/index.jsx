@@ -14,7 +14,7 @@ export const Footer = () => {
         <div className={styles.contain}>
           <div className={styles.contato}>
             <a href="/" onClick={() => window.location.reload()}>
-              <img className={styles.img} src={logo} alt="" />
+              <img className={styles.img} src={logo} alt="The MYTHZ logo" />
             </a>
             <ul className={styles.ul}>
               <li>
@@ -23,7 +23,7 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className={styles.logos} src={instagram} />
+                  <img className={styles.logos} src={instagram} alt="Instagram logo" />
                 </a>
               </li>
               <li>
@@ -32,7 +32,7 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className={styles.logos} src={spotify} />
+                  <img className={styles.logos} src={spotify} alt="Spotify logo"/>
                 </a>
               </li>
               <li>
@@ -41,7 +41,7 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className={styles.logos} src={youtube} />
+                  <img className={styles.logos} src={youtube} alt="Youtube logo" />
                 </a>
               </li>
               <li>
@@ -50,12 +50,12 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className={styles.logos} src={deezer} />
+                  <img className={styles.logos} src={deezer} alt="Deezer logo" />
                 </a>
               </li>
               <li>
                 <a href="https://www.contate.me/5531973351478" target="_blank" rel="noopener noreferrer">
-                  <img className={styles.logos} src={whatsapp} />
+                  <img className={styles.logos} src={whatsapp} alt="Whatsapp logo" />
                 </a>
               </li>
             </ul>

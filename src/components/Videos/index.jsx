@@ -16,6 +16,7 @@ export const Videos = () => {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
             rel="noopener noreferrer"
+            loading="lazy"
           ></iframe>
           </div>
           <div className={styles.videowrap}>
@@ -30,6 +31,7 @@ export const Videos = () => {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
             rel="noopener noreferrer"
+            loading="lazy"
           ></iframe>
         </div>
       </div>

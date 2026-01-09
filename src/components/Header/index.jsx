@@ -10,7 +10,7 @@ export const Header = () => {
       <header className={styles.header}>
         <div className={styles.div}>
           <a href="/" onClick={() => window.location.reload()}>
-            <img className={styles.img} src={logo} alt="The MYTHZ logo" />
+            <img className={styles.img} src={logo} alt="The MYTHZ logo" loading="lazy" width="150" height="150" />
           </a>
           
           <ul className={styles.ul}>

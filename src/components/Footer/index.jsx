@@ -14,7 +14,12 @@ export const Footer = () => {
         <div className={styles.contain}>
           <div className={styles.contato}>
             <a href="/" onClick={() => window.location.reload()}>
-              <img className={styles.img} src={logo} alt="The MYTHZ logo" />
+              <img
+                className={styles.img}
+                src={logo}
+                alt="The MYTHZ logo"
+                loading="lazy"
+              />
             </a>
             <ul className={styles.ul}>
               <li>
@@ -23,7 +28,12 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className={styles.logos} src={instagram} alt="Instagram logo" />
+                  <img
+                    className={styles.logos}
+                    src={instagram}
+                    alt="Instagram logo"
+                    loading="lazy"
+                  />
                 </a>
               </li>
               <li>
@@ -32,7 +42,12 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className={styles.logos} src={spotify} alt="Spotify logo"/>
+                  <img
+                    className={styles.logos}
+                    src={spotify}
+                    alt="Spotify logo"
+                    loading="lazy"
+                  />
                 </a>
               </li>
               <li>
@@ -41,7 +56,12 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className={styles.logos} src={youtube} alt="Youtube logo" />
+                  <img
+                    className={styles.logos}
+                    src={youtube}
+                    alt="Youtube logo"
+                    loading="lazy"
+                  />
                 </a>
               </li>
               <li>
@@ -50,12 +70,26 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className={styles.logos} src={deezer} alt="Deezer logo" />
+                  <img
+                    className={styles.logos}
+                    src={deezer}
+                    alt="Deezer logo"
+                    loading="lazy"
+                  />
                 </a>
               </li>
               <li>
-                <a href="https://www.contate.me/5531973351478" target="_blank" rel="noopener noreferrer">
-                  <img className={styles.logos} src={whatsapp} alt="Whatsapp logo" />
+                <a
+                  href="https://www.contate.me/5531973351478"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className={styles.logos}
+                    src={whatsapp}
+                    alt="Whatsapp logo"
+                    loading="lazy"
+                  />
                 </a>
               </li>
             </ul>

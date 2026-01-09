@@ -106,6 +106,7 @@ export default function Carrossel() {
                 ><img
                   src={pessoa.contato.icon}
                   alt="Contato"
+                  loading="lazy"
                   className={styles.icon}
                 /></a>
                 

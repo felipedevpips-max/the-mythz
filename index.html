@@ -2,7 +2,13 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/logo.png"
+      alt="The MYTHZ logo "
+      loading="lazy"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -29,6 +35,7 @@
     <meta property="og:locale" content="pt_BR" />
 
     <meta name="google-site-verification" content="SEU_CODIGO_AQUI" />
+    <meta name="robots" content="index, follow" />
 
     <title>TheMythz – Banda de Rock Alternativo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,6 +44,26 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MusicGroup",
+        "name": "The Mythz",
+        "genre": "Rock Alternativo",
+        "foundingLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "MG",
+            "addressCountry": "BR"
+          }
+        },
+        "url": "https://the-mythz.vercel.app/",
+        "image": "https://the-mythz.vercel.app/assets/logo-C0XTxsKn.png"
+      }
+    </script>
+    
   </head>
   <body>
     <div id="root"></div>

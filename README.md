@@ -8,6 +8,9 @@ O site apresenta informações sobre a banda, músicas, identidade visual e cana
 🔗 Acesse o site em produção:  
 [https://the-mythz.vercel.app/]
 
+<img width="2272" height="1226" alt="Captura de tela 2026-01-09 153951" src="https://github.com/user-attachments/assets/f4e8bbaf-d7bc-4bdb-9c7b-1915e7419cb9" />
+
+
 ## 🧩 Funcionalidades
 - Apresentação institucional da banda
 - Layout moderno e responsivo

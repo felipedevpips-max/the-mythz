@@ -19,6 +19,7 @@ export function SpotifyPlayer() {
       allowfullscreen=""
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
+      rel="noopener noreferrer"
     ></iframe>
     </div>
     

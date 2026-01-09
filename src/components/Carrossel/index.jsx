@@ -59,7 +59,7 @@ const pessoas = [
     nascimento: "30/12/2000",
     contato: {
       icon: instagram,
-      link: "https://www.instagram.com/felipe.costa_216?utm_source=qr&igsh=MWl2Z29xM3pjajdneA==",
+      link: "https://www.instagram.com/felipe.costa_216?utm_source=qr&igsh=MWl2Z29xM3pjajdneA==" ,
     },
     posicao: "Desenvolvedor Web/ Guitarra",
     imagem: felipe,
